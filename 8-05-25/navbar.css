@@ -1,0 +1,154 @@
+*{
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  position: fixed;
+  display: flex;
+  top: 0;
+  right: 0;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  height: 60px;
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 30px;
+  width: 100px;
+}
+
+.middle-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.middle-section ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+  width: 500px;
+}
+
+.middle-section ul li a{
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+}
+
+.middle-section a:hover{
+  text-decoration: underline;
+}
+
+
+.right-section{
+  right: 0;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button{
+  color: white;
+  width: 80px;
+  background-color: rgb(0, 85, 255);
+  border-style: none;
+  border-radius: 3px;
+  height: 40px;
+}
+
+.signin{
+  color: rgb(0, 85, 255);
+  background: white;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: rgb(0, 85, 255);
+}
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+}
+
+.wordings{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 700px;
+}
+
+.prop{
+  font-size: 60px;
+  font-weight: 700px;
+  width: 650px;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+.text1{
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.form{
+  display: flex;
+  padding: 0px 10px;
+  gap: 10px;
+}
+
+input{
+  height: 40px;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.minicontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: transparent;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.small{
+  font-size: 10px;
+  padding-left: 0px;
+}

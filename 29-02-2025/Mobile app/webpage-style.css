@@ -1,0 +1,109 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(245, 245, 240, 10);
+  height: 100vh;
+}
+
+.Background{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin-top: -400px;
+}
+
+.container{
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.hero{
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  width: 400px;
+}
+
+.text1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.text2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  margin-top: -20px;
+}
+
+.sub-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgb(228, 177, 252);
+  border-radius: 20px;
+  height: 80px;
+  width: 300px;
+}
+
+.right-side{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+
+  
+}
+
+.icon-music{
+  width: 50px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.mini-container{
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+
+.change{
+  padding-right: 10px;
+}
+
+.floating-button{
+  width: 300px;
+  height: 50px;
+  background-color: rgb(214, 214, 243);
+}
+
+
+
+
